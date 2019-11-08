@@ -1,0 +1,44 @@
+.work {
+	background-color: white;
+	.headTitle {
+		padding-top: 100px;
+		h2 {
+			font-size: 55px;
+		}
+	}
+	&-blog {
+		padding: 70px 20px 0px 20px;
+	}
+	.block {
+		margin: 20px;
+		padding: 20px;
+		height: 550px;
+}
+	.img {
+		width:380px;
+		margin-bottom: 30px;
+		text-align: right;
+	}
+	h3 {
+		font-size: 35px;
+		font-family: $main;
+		font-weight: bold;
+		color: $gray;
+		margin-bottom: 18px;	
+	}
+	p {
+		font-size: 28px;
+		font-family: $minor;
+		font-weight: 400;
+		color:$gray;
+		width: 460px;
+		// padding-left: 70px;
+	}
+	a {
+		margin-top: 20px;
+		text-decoration: underline;
+		color:$red; 
+		display: block;
+		font-size: 35px;
+	}
+}

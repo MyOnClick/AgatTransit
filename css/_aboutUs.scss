@@ -1,0 +1,33 @@
+.aboutUs {
+	background-color: $gray;
+	background-image: url('../image/aboutUs/Background\ 1.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding: 20px 20px 100px 20px;
+	.headTitle {
+		padding-top: 100px;
+		padding-bottom: 50px;
+
+		h2 {
+			font-size: 55px;
+			color: white;
+
+		}
+	}
+
+	&-block {
+		font-family: $minor;
+		font-weight: 400;
+		color: white;
+		margin: 20px;
+		padding: 20px;
+	}
+	small {
+		font-weight: $main;
+		font-weight: bold; 
+		font-size: 45px;
+	}
+	p {
+		font-size: 45px;
+	}
+}

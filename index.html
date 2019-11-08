@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<title>Агат-Транзит</title>
+	<link rel="shortcut icon" href="/image/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<header class="" id='main'>
+		<!-- navbar -->
+		<div class="header main-header out">
+			<div class="container-fluid">
+				<nav>
+					<div class="hamburger"></div>
+					<ul class="main-nav main-nav-mob">
+						<li class="nav-item"><a href="#main">Главная</a></li>
+						<li class="nav-item"><a href="#vagon">Вагоны</a></li>
+						<li class="nav-item"><a href="#work">Как мы работаем</a></li>
+						<li class="nav-item"><a href="#aboutUs">О нас</a></li>
+						<li class="nav-item"><a href="#advantages">Приимущества</a></li>
+						<li class="nav-item"><a href="#footer">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div><!-- /navbar -->
+		<!-- logo end contact -->
+		<div class="contact">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-xl-4 col-lg-4  col-md-9 col-sm-6">
+						<img src="image/main/Logo.svg" alt="Logo" class="logo">
+					</div>
+					<div class="col-6 col-xl-4 col-lg-3  offset-md-0 col-md-6 col-sm-6 offset-sm-1 Ph">
+						<img src="image/main/1.svg" alt="Phone" class="phone-img">
+						<div class="contact-info mob">
+							<a href="tel:+77774167671" class="phone">+7 (777) 416 76 71</a>
+							<a href="tel:+77016232313" class="secondary">+7 (701) 623 23 13</a>
+						</div>
+					</div>
+					<div class="col-5 col-xl-4 col-lg-3 col-md-6 col-sm-5 Ph">
+						<img src="image/main/2.svg" alt="Adres" class="location-img">
+						<div class="contact-info">
+							<div class="adress">Ак.Сатпаева, 15</div>
+							<div class="secondary">г.Павлодар, 140000</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<main class="main">
+		<!-- <label for="toggle">р</label> -->
+		<!-- <input type="checkbox" id="toggle"> -->
+		<!-- <div class="cc">vv</div> -->
+		<div class="mod">
+			<div class="content">
+				<label for="toggle" class="close">&times;</label>
+				<div class="modTitle">Спасибо!</div>
+				<div class="modSubtitle">Мы свяжимся с Вами в течении 30 минут</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="title">Грузовые железнодорожные перевозки </h1>
+				</div>
+				<div class="w-100"></div>
+				<div class="col-12">
+					<h2 class="subtitle">по Казахстану и СНГ</h2>
+				</div>
+				<div class="w-100"></div>
+				<div class="col-12">
+					<button class="button btn" id="go">ЗАКАЗАТЬ ЗВОНОК</button>
+					<div id="modal_form">
+						<span id="modal_close">X</span>
+						<form class="form" id="form" action="mail.php" method="POST">
+							<div class="formTitle">
+								<label class="form-label">Заполните данные <small>Мы Вам позвоним</small> </label>
+							</div>
+							<input autofocus type="text" class="form-input" id="Name" name="Name" placeholder="Ваше имя" required>
+							<input type="text" class="form-input" id="Phone" name="user_phone" placeholder="Ваш номер телефона"
+								required>
+							<input class="form-check-input checkbox " type="checkbox" value="tt" id="invalidCheck2" required>
+							<label class="form-check" for="invalidCheck2">
+								Я даю согласие на обработку персональных данных
+								<a href="PolitikaAgat-Transit.pdf" target="_blank">Политика
+									конфиденциальности</a> </label>
+							<button type="submit" class="form-btn button" name="enter" value="Отправить">Отправить</button>
+						</form>
+					</div>
+					<div id="overlay"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<section class="vagon" id='vagon'>
+		<div class="headTitle">
+			<h2>Наши вагоны</h2>
+		</div>
+		<div class="vagons">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-xl-8 col-lg-8 col-md-7 col-sm-12">
+						<div class="row">
+							<div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+								<div class="vagons-blog">
+									<img class="vagons-imgСovered" src="image/Vagons/krit.svg" alt="Vagon">
+									<h3>Крытый вагон</h3>
+									<p>Закрыт со всех сторон <br>
+										Обеспечивает сохранность груза от
+										повреждений, краж и неблагоприятных
+										погодных условий</p>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6  col-md-12 col-sm-12">
+								<div class="vagons-blog">
+									<img class="vagons-imgOpen" src="image/Vagons/polu.svg" alt="Vagon">
+									<h3>Полувагон</h3>
+									<p>Имeет кузов без крышки<br>
+										Обеспечивает перевозку грузов,
+										не требующих защиты от погодных
+										условий</p>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+								<div class="vagons-blog">
+									<img class="vagons-imgHopper" src="image/Vagons/hopper.svg" alt="Vagon">
+									<h3>Хоппер</h3>
+									<p>Саморазгружающийся вагон<br>
+										Обеспечивает перевозку сыпучих грузов:
+										угля, зерна, цемента...<br>
+										Имеет люки внизу, что способствует быстрой разгрузки под собственным весом</p>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+								<div class="vagons-blog">
+									<img class="vagons-imgPlatform" src="image/Vagons/platform.svg" alt="Vagon">
+									<h3>Платформа</h3>
+									<p>Вагон открытого типа<br>
+										Обеспечивает перевозку контейнеров,
+										оборудования, штучных грузов...<br>
+										не требующих защиты от погодных
+										условий
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xs-4 col-lg-4 col-md-4 col-sm-12">
+						<form class="form sidebar" id="form" action="mail.php" method="POST">
+							<div class="form-Title">
+								<label class="form-label">Получить бесплатную консультацию</label>
+							</div>
+							<input type="text" class="form-input" id="Name" name="Name" placeholder="Ваше имя" required>
+							<input type="text" class="form-input" id="Phone2" name="user_phone2" placeholder="Ваш номер телефона"
+								required>
+							<input class="form-check-input checkbox " type="checkbox" value="tt" id="invalidCheck2" required>
+							<label class="form-check" for="invalidCheck2">
+								Я даю согласие на обработку персональных данных
+								<a href="PolitikaAgat-Transit.pdf" target="_blank">Политика
+									конфиденциальности</a> </label>
+							<button type="submit" class="form-btn button" name="enter" value="Отправить">Отправить</button>
+						</form>
+						<!-- <div class="sidebar"></div> -->
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="work" id='work'>
+		<div class="headTitle">
+			<h2>Как мы работаем?</h2>
+		</div>
+		<div class="container-fluid">
+			<div class="work-blog">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="block">
+
+									<img src="image/work/SVG/1.svg" alt="Zayavka" class="img img-1">
+									<h3>Оформите заявку</h3>
+									<p>Оформите заявку на сайте
+										или позвоните по номеру
+										<a>+ 7 777 416 76 71</a></p>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="block">
+
+									<img src="image/work/SVG/2.svg" alt="Consultant" class="img img-2">
+									<h3>Консультация специалиста</h3>
+									<p>В течении 30 минут
+										Наш специалист свяжится с Вами для бесплатной консультации и уточнения деталей
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="block">
+
+									<img src="image/work/SVG/3.svg" alt="Dogovor" class="img img-3">
+									<h3>Заключаем договор</h3>
+									<p>После полной консультации и согласования
+										всех деталей заключаем договор.
+										Производится оплата</p>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="block">
+
+									<img src="image/work/SVG/4.svg" alt="Pogruzka" class="img img-4">
+									<h3>Отправка груза</h3>
+									<p>В установленные договором сроки
+										производится погрузка вагона
+										и отправка груза до места назначения </p>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="block">
+
+									<img src="image/work/SVG/5.svg" alt="Otslezhivanie" class="img img-5">
+									<h3>Отслеживанние груза</h3>
+									<p>В течении всего срока пути
+										мы отслеживаем груз 3 раза в сутки
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="block">
+
+									<img src="image/work/SVG/6.svg" alt="Dostavka" class="img img-6">
+									<h3>Прибытие груза</h3>
+									<p>В установленные договором сроки
+										груз доставляется к месту назначения
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mobile">
+		<div class="container">
+			<div class="mobile-slider">
+				<div class="mobile-block">
+					<img class="img1" src="image/work/SVG/1.svg" alt="Zayavka">
+					<h3>Оформите заявку</h3>
+					<p>Оформите заявку на сайте
+						или позвоните по номеру
+						<a>+ 7 777 416 76 71</a></p>
+				</div>
+				<div class="mobile-block">
+					<img src="image/work/SVG/2.svg" alt="Consultant">
+					<h3>Консультация специалиста</h3>
+					<p>В течении 30 минут
+						Наш специалист свяжится с Вами для бесплатной консультации и уточнения деталей
+					</p>
+				</div>
+				<div class="mobile-block">
+					<img src="image/work/SVG/3.svg" alt="Dogovor">
+					<h3>Заключаем договор</h3>
+					<p>После полной консультации и согласования
+						всех деталей заключаем договор.
+						Производится оплата</p>
+				</div>
+				<div class="mobile-block">
+					<img src="image/work/SVG/4.svg" alt="Pogruzka">
+					<h3>Отправка груза</h3>
+					<p>В установленные договором сроки
+						производится погрузка вагона
+						и отправка груза до места назначения </p>
+				</div>
+				<div class="mobile-block">
+					<img src="image/work/SVG/5.svg" alt="Otslezhivanie">
+					<h3>Отслеживанние груза</h3>
+					<p>В течении всего срока пути
+						мы отслеживаем груз 3 раза в сутки
+					</p>
+				</div>
+				<div class="mobile-block">
+					<img src="image/work/SVG/6.svg" alt="Dostavka">
+					<h3>Прибытие груза</h3>
+					<p>В установленные договором сроки
+						груз доставляется к месту назначения
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="aboutUs" id='aboutUs'>
+		<div class="headTitle">
+			<h2>Немного о нас </h2>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 col-lg-11 col-md-12">
+
+					<div class="aboutUs-block">
+						<p><small>ТОО Агат-Транзит</small> – Мы мобильная и ответственная команда профессионалов</p>
+						<p>Более 15 лет назад связавшая свою жизнь с железной дорогой</p>
+					</div>
+					<div class="aboutUs-block">
+						<p>Набравшись полезного опыта, сегодня мы помогаем людям максимально
+							комфортно осуществлять грузовые перевозки по железной дороге</p>
+					</div>
+					<div class="aboutUs-block">
+						<p>Наши специалисты помогут не только доставить Ваш груз выгодно и безапасно,</p>
+						<p>но и грамотно выстроить пошаговый план действий для решения нестандартных задач</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="advantages" id='advantages'>
+		<div class="headTitle">
+			<h2>Почему мы?</h2>
+		</div>
+		<div class="container-fliid">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="advantages-block">
+						<strong class="advantages-tarp">1</strong>
+						<div class='title'>Сроки</div>
+						<p>Если доставка нужна "ЕЩЁ ВЧЕРА"</p>
+						<p>Наши специалисты помогут сделать все необходимое в кратчайшие сроки</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="advantages-block">
+						<strong class="advantages-tarp">2</strong>
+						<div class='title'>Цена</div>
+						<p>Проанализировав рынок в 2019 году,</p>
+						<p>мы выяснели, что наши цены ниже,
+							чем у конкурентов</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="advantages-block">
+						<strong class="advantages-tarp">3</strong>
+						<div class='title'>Наличие вагонов</div>
+						<p>Наличие собственных и арендованных
+							вагонов, гарантирует нашим клиентам
+							своевременную подачу вагона под загрузку</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="advantages-block">
+						<strong class="advantages-tarp">4</strong>
+						<div class='title'>Поддержка 24/7</div>
+						<p>Мы предоставляем круглосуточную поддержку нашим клиентам</p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="advantages-block">
+						<strong class="advantages-tarp advantages-tarp-1 ">5</strong>
+						<div class='title-5'>Реализовать грузоперевозку в нестандартной ситуации</div>
+						<div class='mob'>Нестандартная ситуация</div>
+						<p>Если Вам нужно отправить груз и Вы непонимаете как это сделать</p>
+						<p>Мы поможем “Разложить все по полочкам” и реализовать грузоперевозку</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id='footer'>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 ">
+					<div class="footer-blog">
+						<p>Директор</p>
+						<p>Булат Тасбулатович Муканов</p>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="footer-blog">
+						<p>г.Павлодар</p>
+						<p>Ак.Сатпаева 15</p>
+					</div>
+
+				</div>
+				<div class="col-md-3 ">
+					<div class="footer-blog">
+						<p><a href="tel:Тел:+77774167671">Тел:  + 7 (777) 416 76 71</a></p>
+						<p><a href="tel:+77016232313">Тел: + 7 (701) 623 23 13</a></p>
+					</div>
+				</div>
+								<div class="col-md-3 ">
+									<div class="footer-blog">
+									<p><a href="mailto:agat_tranzit@mail.ru" title='Написать нам письмо'>E-mail: agat_tranzit@mail.ru</a></p>
+									</div>
+								</div>
+				<div class="col-12">
+					<div class="footer-name">
+						<small> © ТОО "Агат-Транзит" 2019 </small>
+						<small>Разработанно<a title='Написать разработчику' href=" mailto:onclickpost@gmail.com"> MarinAxim </a></small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.footer {
+	padding: 20px;
+	background-color: $gray;
+	color:white;
+	font-family: $minor;
+	font-weight: 200;
+	&-blog {
+		padding: 20px;
+		padding-top: 40px;
+		// border: 1px solid white;
+	}
+	p {
+		font-size: 25px;
+		margin: 20px;
+		a {
+			font-size: 25px;
+			text-decoration: underline; 
+		}
+	}
+&-name {
+	text-align: center;
+	padding-top: 20px;
+}
+small {
+	font-size: 25px;
+	display: block;
+}
+a {
+	color :white;
+	font-size: 25px;
+}
+}

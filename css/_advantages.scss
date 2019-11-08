@@ -1,0 +1,65 @@
+.advantages {
+	background-color: #fff;
+	color:$gray;
+	font-family: $minor;
+	padding: 20px;
+		.headTitle {
+			padding: 100px 0 50px;
+			h2 {
+				font-size: 55px;
+			}
+		}
+	&-block {
+		margin: 40px;
+		width: 90%;
+		height: 250px;
+		
+	}
+	&-tarp {
+		color:white;
+		font-size: 48px;
+		background-color: $red;
+		border-radius:2px;
+		padding: 5px 20px 5px 100px;
+		margin-right: 30px;
+		display: inline-block;
+		margin-bottom: 30px;
+		&:before {
+			    display: block;
+			    content: '';
+			    width: 75%;
+			    height: 2px;
+			    background-color: $red;
+			    position: absolute;
+			    top: 34.5%;
+		}
+		&-1 {
+					&:before {
+						display: block;
+						content: '';
+						width: 88%;
+						height: 2px;
+						background-color: $red;
+						position: absolute;
+						top: 34.5%;
+						right: -1;
+					}
+		}
+
+	}
+	.title, .title-5 {
+		font-size: 45px;
+		font-family: $main;
+		font-weight: bold;
+		display: inline;
+	}
+						.mob {
+							display: none;
+						}
+
+	p {
+		font-size: 35px;
+		width: 90%;
+		padding-left: 40px;
+	}
+}
